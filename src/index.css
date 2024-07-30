@@ -11,3 +11,206 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+nav{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #333;
+  padding: 16px;
+}
+.nav-item {
+  padding: 20px;
+  font-size: 23px;
+  text-decoration: none;
+  color: #fff;
+}
+.nav-item a{
+  color: #fff;
+  text-decoration: none;
+}
+.banner{
+  display: flex;
+  overflow: hidden;
+  max-width: 100%; 
+  max-height: 100vh;  
+}
+.bannersection img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bannersection{
+  position:relative;
+}
+
+.banner-caption{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  font-size: 100px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  
+}
+.latest-img{
+  max-width: 500px;
+  max-height: 300px;
+}
+.latest-img img{
+  width: 100%;
+  height: 300px;
+}
+.headline{
+  padding: 30px;
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.latest-title{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+.latest-post{
+  padding: 40px;
+
+}
+.latest-blogs{
+  padding-left: 25px;
+}
+
+/* ------------all section---------------- */
+.all-sections {
+  background-color: whitesmoke;
+}
+
+
+
+.sections {
+  padding: 30px;
+  background-color: #fff;
+  margin: 40px;
+  max-height: 670px;
+  margin-left: -40px;
+ 
+  
+}
+
+
+.description {
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  color: #555a78;
+}
+
+ button{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:#555a78;
+  font-size: small;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+button a{
+  color: #fff;
+  text-decoration: none;
+
+}
+button:hover{
+    background-color: white;
+    color: #555a78;
+}
+button:hover a{
+  text-decoration: none;
+  color: #555a78;
+}
+
+.blog-img img{
+  width: 100%;
+  height: 350px;
+}
+.trending{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+
+
+/* -----------footer-------------------- */
+
+.icons .fa-brands{
+  margin: 0 13px;
+  cursor: pointer;
+
+}
+.icon-title h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  padding: 10px;
+  
+}
+.about h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  padding: 10px;
+}
+
+footer{
+  background-color: #212529;
+  color: white;
+}
+
+.foot{
+  padding: 20px;
+}
+/* --------------------------food-section--------------- */
+
+.food-section{
+  padding-left: 30px;
+}
+.hedline{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 50px;
+  color: #555a78;
+  font-size: 50px;
+}
+
+.Travel-section,.politics-section,.sports-section,.technology{
+  padding-left: 40px;
+}
+
+
+.f-img{
+  max-width: 540px;
+  height: 600px;
+  padding-top: 10px;
+
+}
+.f-img img{
+  width: 100%;
+  height: 100%;
+}
+.food-description{
+  padding: 20px;
+}
+.f-desc{
+  padding: 20px;
+  color: #555a78;
+}
+.don{
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+ 
+}
+
